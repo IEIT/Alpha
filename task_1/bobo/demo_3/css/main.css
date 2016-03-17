@@ -10,7 +10,7 @@ div {
 
 h1 {
 	font-size: 2em;
-	margin: 0 auto;
+	margin: 0;
 }
 
 .wrapper {
@@ -43,7 +43,11 @@ h1 {
 .wrapper .team-box #team-logo {
 	float: left;
 
-	background-color: green;
+	/*background-color: green;*/
+	border: 2px ridge #fff;
+	border-radius: 10px;
+	background: url(../images/logo.png);
+	background-size: cover;
 }
 
 .wrapper .team-box #team-name {
@@ -51,11 +55,9 @@ h1 {
 	
 	padding: 0;
 	height: 80px;
-}
-
-.wrapper .team-box h1 {
-	float: right;
-	margin-right: 11px;
+	width: 58px;
+	border-width: 0;
+	text-align: center;
 }
 
 .wrapper .member-box {
@@ -65,17 +67,21 @@ h1 {
 }
 
 .wrapper .member-box #member-one {
-	background-color: green;
+	background: url(../images/iuril.png);
+	background-size: cover;
 
 	margin-bottom: 20px;
+
 }
 
 .wrapper .member-box #member-two {
-	background-color: yellow;
+	background: url(../images/xin.png);
+	background-size: cover;
 
 	margin-bottom: 20px;
 }
 
 .wrapper .member-box #member-three {
-	background-color: purple;
+	background: url(../images/bobo.png);
+	background-size: cover;
 }
