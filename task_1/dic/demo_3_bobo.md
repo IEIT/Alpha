@@ -17,13 +17,13 @@
 ## demo_4
 
 实现垂直居中
- 
+
 ```
-/* 外边包一个块元素，设置此元素 line-height: 100%; */ 
+/* 外边包一个块元素，设置此元素 line-height: 100%; */
 display:inline-block
 
 /* 借用表格垂直居中（内容可变时选） */
-display: table; 
+display: table;
 
 display:table-cell;
 vertical-align: middle;
@@ -42,7 +42,7 @@ margin-top:-height/2；
 ---
 ## demo_6
 
-- <header> 
+- <header>
  > The HTML <header> element represents a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, wrapped section's header, a search form, and so on.
 
 Volume＋数字 第几期
@@ -64,7 +64,7 @@ Html部分 ->  <div class="triangle"></div>
                               /^ 2.设置三角形三边（上三角, 高为10px, 底边长为14px, 背景色为lime） ^/
                               border-bottom: 10px solid lime;
                               border-left: 7px solid transparent;
-                              border-right: 7px solid transparent; 
+                              border-right: 7px solid transparent;
                         }
 
 说明：想绘制朝向为X方向的三角形，那么样式中border-x就不要出现，对应方向的边框宽即为三角形的高，其余两边框的宽度之和即为三角形的底边长。
@@ -77,8 +77,11 @@ Html部分 ->  <div class="triangle"></div>
                                          /^ 1.绘制一条基本边border-top, 或border-bottom ^/
                                          border-bottom: 10px solid lime;
                                          /^ 2.绘制与另一条直角边相反方向的边线（比如这条直角边在右） ^/
-                                         border-left: 10px solid transparent; 
+                                         border-left: 10px solid transparent;
                                     }
 
 
 绘制的图形，加 position: relative; 才能定位。
+
+- [font-variant: small-caps](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps) 设置首字母大小不同
+- @charset "utf-8"; 添加到 CSS 头部，防止字体乱码
