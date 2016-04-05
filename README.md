@@ -2,7 +2,7 @@
 Alpha 是 IEIT@baidu-ife 成员所有产出集合，包含团队规范、所有的代码、笔记等。
 
 ## Directory Structure
-![DIR](http://7xqmgi.com1.z0.glb.clouddn.com/about/Dir.png)
+![DIR](/about/Dir.png)
 
 ## Homepage
 [IEIT-HOME](http://ieit.github.io/)
