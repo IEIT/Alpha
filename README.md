@@ -1,0 +1,19 @@
+## About
+Alpha 是 IEIT@baidu-ife 成员所有产出集合，包含团队规范、所有的代码、笔记等。
+
+## Directory Structure
+![DIR](http://7xsmek.com2.z0.glb.qiniucdn.com/about/Dir.png)
+
+## Homepage
+[IEIT-HOME](http://ieit.github.io/)
+
+## Code Guide
+[Code Guide by @AlloyTeam](http://alloyteam.github.io/CodeGuide/#css-naming)
+
+## Reference
+[normalize.css](https://github.com/necolas/normalize.css/blob/master/normalize.css)
+
+
+```
+16-04-05 | Create
+```
