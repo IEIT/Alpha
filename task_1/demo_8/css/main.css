@@ -90,10 +90,12 @@ div.row {
 	position: relative;
 	
 	
-	padding-left: 20px;
+	padding-left: 10px;
 	padding-right: 10px;
 	width: 100%;
 	border: 0;
+
+	overflow: hidden;
 }
 
 .row > div {
@@ -101,20 +103,20 @@ div.row {
 	display: block;
 
 	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 	box-sizing: border-box;
+
+	transition: all 0.5s;
 }
 
-.row:nth-of-type(3) > div {
+.row:nth-of-type(3) > div:first-child {
 	float: right;
 }
 
 .row div div {
-	marigin-left: 20px;
-	margin-right: 20px;
-	
 	border: 1px solid #999;
 	height: 50px;
 
 	background-color: #eee;
 }
-
